@@ -89,3 +89,27 @@ Se puede usar `colorMode(RGB)` o `colorMode(HSB)`
 Mundo *vector* vs *raster*.
 
 El vector toma puntos entre los cuales crea objetos (líneas). Luego, estas líneas son rasterizadas según la grilla que se tiene (proceso ejecutado por el renderer).
+
+
+
+## Sesión 02:
+
+Para poder tener control sobre las cosas que creamos, la estrategia es crear los objetos antes, y luego dibujarlos (en vez de crearlos a la hora del display). Así, usaremos **arreglos** para organizarlos.
+
+#### Arreglos
+Los arreglos tienen:
+1. **DataType** nos dice el tipo de datos que almacena
+2. **Dimension** nos dice la cantidad de elementos que almacena
+3. **Índice** nos señala la posición de cada elemento
+
+Para almacenar o recuperar el valor en el índice `i` de un arreglo `a`, llamamos `a[i]`. Cabe mencionar, que el primer elemento de un arreglo siempre es el `a[0]`. Esto quiere decir que si un arreglo tiene `n` elementos, los índices van del `0` al `n-1`. De esta forma, estamos usando arreglos para guardar las **propiedades** de distintos objetos.
+
+#### Objetos
+Otra forma que tenemos de tratar con todo esto, es crear objetos que contienen sus propias **propiedades** y **métodos**. El objeto es un *tipo de dato*
+1. **Atributos / Propiedades**
+2. **Métodos / Funciones**
+  1. **Constructor**: Una de las funciones tiene que ser el constructor de la clase.
+
+
+#### Encapsulamiento
+Cada segmento del código tiene una función específica. No hay ambigüedades.
