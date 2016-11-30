@@ -113,3 +113,6 @@ Otra forma que tenemos de tratar con todo esto, es crear objetos que contienen s
 
 #### Encapsulamiento
 Cada segmento del código tiene una función específica. No hay ambigüedades.
+
+
+## Session 03:
